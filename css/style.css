@@ -40,13 +40,13 @@ a{
     color: #5fcf80;
 }
 a:hover, a:focus{
-    color: #5fcf80;
+    color: #0101DF;
 }
 /***********************************
 Navigation bar
 ************************************/
 .navbar-default .navbar-brand {
-    color: #5FCF80;
+    color: #0101DF;
 }
 .navbar-default {
     background-color: #ffffff;
