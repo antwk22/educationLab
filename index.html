@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<div class="fit-vids-style">­<style> .fluid-width-video-wrapper { width: 100%; position: relative; padding: 0; } .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style></div>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,11 +8,19 @@
   <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
   <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
 
+  <!--Para el ícono de la página-->
+  <link href="img/rsz_whatsapp_image_2020-03-20_at_043332.jpg" rel="icon">
+  <link href="img/rsz_lab-04.png" rel="apple-touch-icon">
+
+
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!--script src="http://code.jquery.com/jquery-1.11.3.js"></script-->
   <!-- =======================================================
     Theme Name: Mentor
     Theme URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
@@ -32,7 +40,6 @@
           <span class="icon-bar"></span>
         </button>
         <!--a class="navbar-brand" href="index.html">Education<span>Lab</span></a-->
-      </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a >Capacitaciones y talleres efectivos</a></li>
@@ -128,6 +135,18 @@
         </svg>
           </span><span style="display:inline-block;padding:2px 3px">Júnior Ferreira</span></a>
     <!--/ Banner-->
+  <!--Images Slider-->
+  <div id="c-slider">
+    <div id="slider">
+      <section><img src="img/slider_01.jpg" alt=""></section>
+      <section><img src="img/slider_02.jpg" alt=""></section>
+      <section><img src="img/slider_03.jpg" alt=""></section>
+      <section><img src="img/slider_04.jpg" alt=""></section>
+    </div>
+    <div id="btn-prev">&#60;</div>
+    <div id="btn-next">&#62;</div>
+    <script src="js/slider.js"></script>
+  </div>
   <!--Feature-->
   <section id="feature" class="section-padding">
     <div class="container">
@@ -584,12 +603,12 @@
   </footer>
   <!--/ Footer-->
 
+  <!--script src="http://code.jquery.com/jquery-1.12.4.min.js"></script-->
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
   <script src="contactform/contactform.js"></script>
-
 </body>
 
 </html>
