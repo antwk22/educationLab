@@ -1,4 +1,4 @@
-var slider = ('#slider');
+var slider = $("#slider");
 var sig = $('#btn-next');
 var ante = $('#btn-prev');
 
@@ -10,7 +10,7 @@ function moverD() {
     slider.animate({
     marginleft:'-'+200+'%'
     } ,700, function() {
-        $('#slider section:fisrt').insertAfter('#slider section:last');
+        $('#slider section:first').insertAfter('#slider section:last');
         slider.css('margin-left', '-'+100+'%');
     });
 }
@@ -34,8 +34,8 @@ ante.on('click', function() {
 
 function autoplay() {
     interval = setInterval(function(){
-        moverD;
-    }, 50000);
+        moverD();
+    }, 3000);
 }
 
 autoplay();
