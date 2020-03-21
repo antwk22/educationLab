@@ -1138,4 +1138,25 @@ Responsive media queries
         text-align: center;
     }
 
+    svg {
+        fill: rgba(0, 0, 0, 0.1);
+        position: absolute;
+    }
+    .cirle-a {
+        bottom: -80px;
+        left: -80px;
+    }
+    .cirle-b {
+        top: -30px;
+        right: 70%;
+    }
+    .cirle-c {
+        top: -330px;
+        right: -300px;
+    }
+    .cirle-d {
+        top: 195px;
+        right: 145px;
+    }
+
 }
