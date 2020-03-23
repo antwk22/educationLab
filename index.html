@@ -56,14 +56,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo_edulap.png" alt="" style="width: 160px;"></span></a>
+      </div>
         <!--a class="navbar-brand" href="index.html">Education<span>Lab</span></a-->
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><img src="img/rsz_11lab-04.png" alt=""></a></li>
-            <li><a>...........................</a></li>
+          <ul class="nav navbar-nav navbar-left">
+            <!--<li><a href="index.html"><img src="img/rsz_11lab-04.png" alt=""></a></li>-->
+            <!--<li><a>...........................</a></li>-->
             <li class="drop-down"><a>Cursos y talleres</a>
-              <ul class="nav navbar-nav navbar-rigth">
-                <li><a href="capTal.html">Capacitaciones y talleres efectivos__</a></li>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="capTal.html">Capacitaciones y talleres efectivos</a></li>
                 <li><a href="expHC.html">Expert Hourly Courses</a></li>
                 <li><a href="expLC.html">Express Learning Courses</a></li>
               </ul>
@@ -76,9 +78,12 @@
             <!--li><a href="#" data-target="#login" data-toggle="modal">Conócenos</a></li-->
             <li><a href="#conocenos">Conócenos</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li> 
+            <!--<li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li>-->
               
             <!--li class="btn-trial"><a href="#footer">Ingresa</a></li-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li>
           </ul>
         </div>
       </div>
@@ -92,17 +97,17 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center form-title">Login</h4>
+          <h4 class="modal-title text-center form-title">Bienvenido/a</h4>
         </div>
         <div class="modal-body padtrbl">
 
           <div class="login-box-body">
-            <p class="login-box-msg">Sign in to start your session</p>
+            <!--<p class="login-box-msg">Iniciar sesión</p>-->
             <div class="form-group">
               <form name="" id="loginForm">
                 <div class="form-group has-feedback">
                   <!----- username -------------->
-                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
+                  <input class="form-control" placeholder="Usuario" id="loginid" type="text" autocomplete="off" />
                   <span
                     style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
                     id="span_loginid"></span>
@@ -111,7 +116,7 @@
                 </div>
                 <div class="form-group has-feedback">
                   <!----- password -------------->
-                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
+                  <input class="form-control" placeholder="Contraseña" id="loginpsw" type="password" autocomplete="off" />
                   <span
                     style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
                     id="span_loginpsw"></span>
@@ -122,13 +127,12 @@
                   <div class="col-xs-12">
                     <div class="checkbox icheck">
                       <label>
-                        <input type="checkbox" id="loginrem"> Remember Me
+                        <input type="checkbox" id="loginrem"> Recordarme
                       </label>
                     </div>
                   </div>
                   <div class="col-xs-12">
-                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign
-                      In</button>
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Iniciar sesión</button>
                   </div>
                 </div>
               </form>
@@ -147,17 +151,17 @@
         <div class="row">
           <div class="banner-text text-center">
             <div class="text-border">
-              <a href="#footer" class="btn-trial">¡ PRUEBA GRATUITA   !</a></li>
+              <!--<a href="#footer" class="btn-trial">¡ PRUEBA GRATUITA   !</a></li>-->
             </div>
             <div class="intro-para text-center quote">
-              <p class="big-text"><i>The key to a better life</i></p>
+              <p class="big-text"><i>The key to a better life</i></p><br>
               <p class="big-text">Education Lab busca <b>democratizar el saber</b>, llevarlo hasta donde la educación de
                 calidad está más limitada.Ello a traves de un trabajo multidisciplinar que permita facilitar el
                 conocimiento, volverlo más digerible y significativo, sin perder rigurosidad.</p>
               <!--a href="#footer" class="btn get-quote">GET A QUOTE</a-->
             </div>
             <a href="#feature" class="mouse-hover">
-              <div class="mouse"></div>
+              <!--<div class="mouse"></div>-->
             </a>
           </div>
         </div>
@@ -165,7 +169,7 @@
     </div>
   </div>
   <!--Créditos al autor-->
-  <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+  <!--<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
     href="https://unsplash.com/@juniorferreir_?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
     target="_blank" rel="noopener noreferrer"
     title="Download free do whatever you want high-resolution photos from Júnior Ferreira">
@@ -175,16 +179,16 @@
         <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z">
         </path>
       </svg>
-    </span><span style="display:inline-block;padding:2px 3px">Júnior Ferreira</span></a>
+    </span><span style="display:inline-block;padding:2px 3px">Júnior Ferreira</span></a>-->
   <!--/ Banner-->
-  <!--Images Slider-->
+  <!--Images Slider--><!--class="section-padding"-->
   <section id="talleres" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>Cursos y Talleres</h2>
-          <p>Descripción o comentarios de los cursos y talleres...</p>
-          <hr class="bottom-line">
+          <!--<h2>Cursos y Talleres</h2>
+          <p>Descripción o comentarios de los cursos y talleres...</p>-->
+          <!--<hr class="bottom-line">-->
         </div>
       </div>
       <div id="c-slider">
@@ -301,8 +305,8 @@
   <!--Sección de pruebas-->
   <section id="conocenos">
     <div>
-      <div class="w-container">
-        <div class="margin-80">
+      <div class="w-container col-12">
+        <!--<div class="margin-80">-->
           <div class="flex-row-container reverse">
             <div class="flex-item _2-items pqcursa">
               <div class="flex-row-container align-top justify-start">
@@ -310,17 +314,18 @@
                   class="image">
                 <h1 class="h1-gris5 _28pts">?</h1>
               </div>
-              <p class="text-gris5 _18pts">Education Lab es un centro
+              <!--class="text-gris5 _18pts-->
+              <p>Education Lab es un centro
                 de capacitación efectivo que brinda herramientas y servicios
                 educativos de calidad, tanto presenciales como en línea, con
                 un valor de uso real capaz de incidir en las capacidades, habilidades
                 y comportamientos de las personas, en aras de reconstruir el tejido social
                 y mejorar las condiciones educativas y laborales de nuestros usuarios. </p>
             </div>
-            <div class="flex-item _2-items centered"><img src="img/rsz_1lab-04 (1).png" width="247" alt=""
+            <div class="flex-item _2-items"><img src="img/services_3.png" width="auto" alt=""
                 class="image-56"></div>
           </div>
-        </div>
+        <!--</div> -->
       </div>
     </div>
   </section>
@@ -341,7 +346,7 @@
                  ciencias sociales (pedagogía, psicología, ciencia política) y ciencias exactas (desde computación 
                  hasta la producción audiovisual).</p>
             </div>
-            <div class="flex-item _2-items centered"><img src="img/rsz_1lab-04 (1).png" width="247" alt=""
+            <div class="flex-item _2-items centered"><img src="img/services_2.png" width="auto" alt=""
                 class="image-56"></div>
           </div>
         </div>
@@ -364,7 +369,7 @@
                 de un trabajo multidisciplinar que permita facilitar el conocimiento, volverlo 
                 más digerible y significativo, sin perder rigurosidad. </p>
             </div>
-            <div class="flex-item _2-items centered"><img src="img/rsz_1lab-04 (1).png" width="247" alt=""
+            <div class="flex-item _2-items centered"><img src="img/services_3.png" width="auto" alt=""
                 class="image-56"></div>
           </div>
         </div>
@@ -411,7 +416,7 @@
     </div>
   </section>
   <!--Cta-->
-  <section id="cta-2">
+  <!--<section id="cta-2">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -427,10 +432,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Cta-->
   <!--work-shop-->
-  <section id="work-shop" class="section-padding">
+  <!--<section id="work-shop" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -441,6 +446,7 @@
         <div class="col-md-4 col-sm-6">
           <div class="service-box text-center">
             <div class="icon-box">
+              <img src="img/interdiciplina.png" width="auto" alt="" class="image-56">
               <i class="fa fa-html5 color-green"></i>
             </div>
             <div class="icon-text">
@@ -451,7 +457,7 @@
         <div class="col-md-4 col-sm-6">
           <div class="service-box text-center">
             <div class="icon-box">
-              <i class="fa fa-css3 color-green"></i>
+              <i class="fas fa-users-cog"></i>
             </div>
             <div class="icon-text">
               <h4 class="ser-text">Trabajo colaborativo</h4>
@@ -470,15 +476,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ work-shop-->
   <!--Faculity member-->
-  <section id="faculity-member" class="section-padding">
+  <section id="faculity-member" class="section-padding" >
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
           <h2>Nuestros colaboradores</h2>
-          <p>Somos un equipo...</p>
+          <!--<p>Somos un equipo...</p>-->
           <hr class="bottom-line">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
@@ -492,12 +498,12 @@
               <p class="pm-staff-profile-name">Lizbeth Mateos</p>
               <p class="pm-staff-profile-title">Pedagogía</p>
               <p class="pm-staff-profile-title">Coordinadora de educación</p>
-                <div class="social-links">
+                <!--<div class="social-links">
                   <a href="#link"><i class="fa fa-twitter fa-fw"></i></a>
                   <a href="https://www.facebook.com/esmeralda.mateos.754"><i class="fa fa-facebook fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-instagram fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
+                </div>-->
             </div>
             </div>
         </div>
@@ -512,12 +518,12 @@
               <p class="pm-staff-profile-name">Niver Martínez</p>
               <p class="pm-staff-profile-title">Ingeniería en Sistemas</p>
               <p class="pm-staff-profile-title">Coordinador de Informática</p>
-                <div class="social-links">
+                <!--<div class="social-links">
                   <a href="https://twitter.com/NiverUNAM"><i class="fa fa-twitter fa-fw"></i></a>
                   <a href="https://www.facebook.com/Filosofandoaando?ref=bookmarks"><i class="fa fa-facebook fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-instagram fa-fw"></i></a>
                   <a href="https://www.linkedin.com/in/niver-mtz/"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
+                </div>-->
             </div>
             </div>
         </div>
@@ -532,14 +538,14 @@
               <p class="pm-staff-profile-name">Javier Cuellar</p>
               <p class="pm-staff-profile-title">Ciencias Políticas</p>
               <p class="pm-staff-profile-title">Organización y producción de contenidos</p>
-                <div class="social-links">
+               <!-- <div class="social-links">
                   <a href="https://twitter.com/J_Cuelllar?s=08"><i class="fa fa-twitter fa-fw"></i></a>
                   <a href="https://www.facebook.com/javier.cuellar.184007"><i class="fa fa-facebook fa-fw"></i></a>
                   <a href="https://www.instagram.com/jcuellar_arpegios_literarios?r=nametag"><i class="fa fa-instagram fa-fw"></i></a>
                   <a href="https://mx.linkedin.com/in/javier-cu%C3%A9llar-dur%C3%A1n-51039b133"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
+                </div>-->
             </div>
-            </div>
+          </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="pm-staff-profile-container">
@@ -552,12 +558,12 @@
               <p class="pm-staff-profile-name">Fernanda Castro</p>
               <p class="pm-staff-profile-title">Psicología</p>
               <p class="pm-staff-profile-title">Aprendizaje Experiencial</p>
-                <div class="social-links">
+                <!--<div class="social-links">
                   <a href="#link"><i class="fa fa-twitter fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-facebook fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-instagram fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
+                </div>-->
             </div>
             </div>
         </div>
@@ -572,12 +578,12 @@
               <p class="pm-staff-profile-name">Merari González</p>
               <p class="pm-staff-profile-title">Ciencias Políticas</p>
               <p class="pm-staff-profile-title">Vinculación, gestión y jurídico</p>
-                <div class="social-links">
+                <!--<div class="social-links">
                   <a href="#link"><i class="fa fa-twitter fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-facebook fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-instagram fa-fw"></i></a>
                   <a href="#link"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
+                </div>-->
             </div>
             </div>
         </div>
@@ -586,7 +592,7 @@
   </section>
   <!--/ Faculity member-->
   <!--Testimonial-->
-  <section id="testimonial" class="section-padding">
+  <!--<section id="testimonial" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -607,10 +613,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Testimonial-->
   <!--Courses-->
-  <section id="courses" class="section-padding">
+  <!--<section id="courses" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -668,7 +674,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Courses-->
   <!--Pricing-->
   <!--section id="pricing" class="section-padding">
@@ -729,7 +735,7 @@
 -->
   <!--/ Pricing-->
   <!--Contact-->
-  <section id="contact" class="section-padding">
+  <!--<section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
@@ -766,52 +772,52 @@
             </div>
           </div>
 
-          <div class="col-xs-12">
+          <div class="col-xs-12">-->
             <!-- Button -->
-            <button type="submit" id="submit" name="submit"
+            <!---<button type="submit" id="submit" name="submit"
               class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
           </div>
         </form>
 
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ Contact-->
   <!--Footer-->
   <footer id="footer" class="footer">
     <div class="container text-center">
 
-      <h3>¡Ingresa los campos para conseguir tu Prueba Gratuita!</h3>
+      <!--<h3>¡Ingresa los campos para conseguir tu Prueba Gratuita!</h3>
 
       <form class="mc-trial row">
         <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
           <div class=" controls">
             <input name="name" placeholder="Ingresa tu nombre " class="form-control" type="text">
           </div>
-        </div>
+        </div>-->
         <!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
+        <!---<div class="form-group col-md-3 col-sm-4">
           <div class=" controls">
             <input name="EMAIL" placeholder="Ingresa tu email" class="form-control" type="email">
           </div>
-        </div>
+        </div>-->
         <!-- End email input -->
-        <div class="col-md-2 col-sm-4">
+        <!--<div class="col-md-2 col-sm-4">
           <p>
             <button name="confirmar" type="submit" class="btn btn-block btn-submit">
               Submit <i class="fa fa-arrow-right"></i></button>
           </p>
         </div>
-      </form>
+      </form>-->
       <!-- End newsletter-form -->
       <ul class="social-links">
         <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <!--<li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
         <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>-->
       </ul>
-      ©2016 Mentor Theme. All rights reserved
+      <!--©2016 Mentor Theme. All rights reserved -->
       <div class="credits">
         <!--
           All the links in the footer should remain intact.
@@ -819,7 +825,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+        <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>-->
       </div>
     </div>
   </footer>

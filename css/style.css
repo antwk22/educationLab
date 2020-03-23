@@ -6,10 +6,10 @@
 */
 
 body {
-	font-size: 15px;
+	/*font-size: 15px;*/
     line-height: 1.52;
-    color: #5fcf80;
-    font-size: 16px;
+    /*color: #5fcf80; */
+    font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -29,7 +29,7 @@ table {
 	border-spacing: 0;
 }
 .section-padding{
-	padding: 60px 0px;
+	padding: 80px 0px;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: Open Sans, sans-serif;
@@ -56,13 +56,13 @@ Navigation bar
 }
 .navbar-default .navbar-nav > li > a {
     color: #717f86;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
 }
 .navbar-nav > li > a{
 	padding: 0px;
-	margin: 10px 5px;
-	padding: 10px 15px;
+	margin: 25px 15px;
+	padding: 15px 15px;
 }
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
 {
@@ -123,7 +123,7 @@ Navigation bar
   }
   
     .drop-down li {
-    min-width: 180px;
+    min-width: 100px;
     position: relative;
   }
   
@@ -139,10 +139,10 @@ Navigation bar
     color: #7efd34;
   }
   
-    .drop-down > a:after {
-    content: "\ea99";
-    font-family: IcoFont;
-    padding-left: 5px;
+  .drop-down > a:after {
+    content: "\f0d7"; /* Valor unicode */
+    font-family: FontAwesome;
+    padding-left: 10px;
   }
   
     .drop-down .drop-down ul {
@@ -160,12 +160,13 @@ Navigation bar
     padding-right: 35px;
   }
   
-    .drop-down .drop-down > a:after {
-    content: "\eaa0";
+ /*.drop-down .drop-down > a:after {
+    content: "eaa0";
     font-family: IcoFont;
     position: absolute;
     right: 15px;
-  }
+  }*/
+
 .padding-zero{
 	padding: 0px;
 }
@@ -300,7 +301,7 @@ Banner
     color: #fff;
 }
 .text-border{
-	border: 5px solid #5FCF80;
+	/*border: 5px solid #5FCF80; */
 	display: inline-block;
 	margin-top: 150px;
 }
@@ -638,8 +639,9 @@ Sección de pruebas
 
 .image-56 {
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: none;
+    padding: 10px;
 }
 
 img {
@@ -695,6 +697,7 @@ Cta
 
 .flex-item._2-items.pqcursa {
     width: 60%;
+    text-align: justify;
 }
 
 .flex-item._2-items {
@@ -1035,6 +1038,8 @@ Footer
 .footer .form-control:focus{
     box-shadow: none;
 }
+
+
 /***********************************
 ************************************
 Responsive media queries
