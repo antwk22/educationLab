@@ -35,7 +35,7 @@ ante.on('click', function() {
 function autoplay() {
     interval = setInterval(function(){
         moverD();
-    }, 3000);
+    }, 5000);
 }
 
 autoplay();
