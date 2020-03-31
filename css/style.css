@@ -408,6 +408,49 @@ Banner
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.cover {
+    height: 800px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: darken;
+  }
+
+  #portada {
+        align-items: flex-start;
+        justify-self: flex-end;
+        margin-top: 80px;
+        padding: 10px;
+  }
+
+  .cover {
+    height: 400px;
+    background-image: url(https://cdn.glitch.com/f48fd9d4-e06d-403e-9def-833f1e5dcdc4%2Frsz_sharon-mccutcheon-hgxfd2nply8-unsplash.jpg?v=1576983523258);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: darken;
+  }
+  
+  .cover-small {
+    height : 200px;
+    background-blend-mode : normal;
+  }
+
+  .card {
+    border : 0 !important;
+    box-shadow : 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+  
+  .card-title {
+    min-height : 3rem;
+  }
+  
+  .card-text {
+    min-height : 10rem;
+  }
 
 /***********************************
 Images Slider

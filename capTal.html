@@ -49,286 +49,333 @@
 
 <body>
   <!--Navigation bar-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo_edulap.png" alt=""
+              style="width: 160px;"></span></a>
+        </div>
         <!--a class="navbar-brand" href="index.html">Education<span>Lab</span></a-->
         <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><img src="img/rsz_11lab-04.png" alt=""></a></li>            
-            <li><a>...........................</a></li>
+          <ul class="nav navbar-nav navbar-left">
+            <!--<li><a href="index.html"><img src="img/rsz_11lab-04.png" alt=""></a></li>-->
+            <!--<li><a>...........................</a></li>-->
             <li class="drop-down"><a>Cursos y talleres</a>
-              <ul class="nav navbar-nav navbar-rigth">
-                <li><a href="#">Capacitaciones y talleres efectivos</a></li>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="capTal.html">Capacitaciones y talleres efectivos</a></li>
                 <li><a href="expHC.html">Expert Hourly Courses</a></li>
                 <li><a href="expLC.html">Express Learning Courses</a></li>
               </ul>
             </li>
             <!--li><a href="#talleres">Capacitaciones y talleres efectivos</a></li>
-            <li><a href="#feature">Expert Hourly Courses</a></li>
-            <li><a href="#organisations">Express Learning Courses</a></li-->
+              <li><a href="#feature">Expert Hourly Courses</a></li>
+              <li><a href="#organisations">Express Learning Courses</a></li-->
             <!--li><a href="#courses">Conócenos</a></li>
-            <li><a href="#pricing">Contacto</a></li-->
+              <li><a href="#pricing">Contacto</a></li-->
             <!--li><a href="#" data-target="#login" data-toggle="modal">Conócenos</a></li-->
             <li><a href="#conocenos">Conócenos</a></li>
             <li><a href="#contact">Contacto</a></li>
-            <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li> 
-              
+            <!--<li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li>-->
+
             <!--li class="btn-trial"><a href="#footer">Ingresa</a></li-->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="btn-trial"><a href="#" data-target="#login" data-toggle="modal">Ingresa</a></li>
           </ul>
         </div>
       </div>
-  </nav>
-  <!--/ Navigation bar-->
-  <!--Modal box-->
-  <div class="modal fade" id="login" role="dialog">
-    <div class="modal-dialog modal-sm">
+    </nav>
+    <div id="portada" class="cover d-flex p-5 flex-column" style="background-image:url(img/capacitaciones.jpg)">
+      <div style="padding: 40px;">
+        <h1 style="color:floralwhite;">
+          Capacitaciones y talleres efectivos
+        </h1>
+        <br>
+        <p style="max-width: 600px; text-align: justify;">
+          Brindan un aprendizaje “vivencial”, basado en experiencias y ya no en el método tradicional, memorístico,
+          donde el
+          alumno repite lo que dicta verticalmente el profesor.
 
-      <!-- Modal content no 1-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title text-center form-title">Login</h4>
-        </div>
-        <div class="modal-body padtrbl">
+          Su contenidos van desde la concientización sobre temas de interés público hasta la capacitación en
+          herramientas y
+          habilidades para el mundo laboral y educativo.
+        </p>
+      </div>
+    </div>
+    <!--Modal box-->
+    <div class="modal cade" id="login" role="dialog">
+      <div class="modal-dialog modal-sm">
 
-          <div class="login-box-body">
-            <p class="login-box-msg">Sign in to start your session</p>
-            <div class="form-group">
-              <form name="" id="loginForm">
-                <div class="form-group has-feedback">
-                  <!----- username -------------->
-                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
-                  <span
-                    style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
-                    id="span_loginid"></span>
-                  <!---Alredy exists  ! -->
-                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                </div>
-                <div class="form-group has-feedback">
-                  <!----- password -------------->
-                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
-                  <span
-                    style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
-                    id="span_loginpsw"></span>
-                  <!---Alredy exists  ! -->
-                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12">
-                    <div class="checkbox icheck">
-                      <label>
-                        <input type="checkbox" id="loginrem"> Remember Me
-                      </label>
+        <!-- Modal content no 1-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title text-center form-title">Login</h4>
+          </div>
+          <div class="modal-body padtrbl">
+
+            <div class="login-box-body">
+              <p class="login-box-msg">Sign in to start your session</p>
+              <div class="form-group">
+                <form name="" id="loginForm">
+                  <div class="form-group has-feedback">
+                    <!----- username -------------->
+                    <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
+                    <span
+                      style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
+                      id="span_loginid"></span>
+                    <!---Alredy exists  ! -->
+                    <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                  </div>
+                  <div class="form-group has-feedback">
+                    <!----- password -------------->
+                    <input class="form-control" placeholder="Password" id="loginpsw" type="password"
+                      autocomplete="off" />
+                    <span
+                      style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;"
+                      id="span_loginpsw"></span>
+                    <!---Alredy exists  ! -->
+                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="checkbox icheck">
+                        <label>
+                          <input type="checkbox" id="loginrem"> Remember Me
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign
+                        In</button>
                     </div>
                   </div>
-                  <div class="col-xs-12">
-                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign
-                      In</button>
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div> 
-<section>
+    </div>
+  </header>
+  <section>
+    <!--
   <aside>
     <div class="container">
       <a class="">
         <img src="img/capacitacionesbanner.png" width="800px" height="500px">
       </a>
     </div>
-  </aside>
-  <aside>
-    <div class="container">
-      <div class="row">
-        <div class="header-section text-center">
-          <h2>Capacitaciones y Talleres Efectivos</h2>
-          <p>Education Lab ofrece capacitaciones y talleres efectivos para un aprendizaje “vivencial”,
-            basado en experiencias y ya no en el método tradicional, memorístico, donde el alumno repite
-            lo que dicta verticalmente el profesor.
-  
-            En contraste a esa forma de “educación bancaria” como le llamaría Freire, Lab Education,
-            con base en Ciencias del Comportamiento y Aprendizaje Experiencial, ofrece capacitaciones
-            en torno a dos grandes ejes temáticos: Habilidades útiles para la vida cotidiana o laboral.
-            Concientización sobre temas de interés público </p>
-          <hr class="bottom-line">
+  </aside-->
+    <section>
+      <div class="container" style="padding: 50px;">
+        <div class="row">
+          <div style="width: 1000px; text-align: center;">
+            <h2>Capacitaciones y Talleres Efectivos</h2>
+            <hr class="bottom-line">
+            <p>Education Lab ofrece capacitaciones y talleres efectivos para un aprendizaje “vivencial”,
+              basado en experiencias y ya no en el método tradicional, memorístico, donde el alumno repite
+              lo que dicta verticalmente el profesor.
+              <br>
+              <br>
+              En contraste a esa forma de “educación bancaria” como le llamaría Freire, Lab Education,
+              con base en Ciencias del Comportamiento y Aprendizaje Experiencial, ofrece capacitaciones
+              en torno a dos grandes ejes temáticos: Habilidades útiles para la vida cotidiana o laboral.
+              Concientización sobre temas de interés público: </p>
+          </div>
         </div>
       </div>
-    </div>
-  </aside>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="header-section text-center">
-        <h2>Capacitaciones y Talleres Efectivos</h2>
-        <p>Education Lab ofrece capacitaciones y talleres efectivos para un aprendizaje “vivencial”,
-          basado en experiencias y ya no en el método tradicional, memorístico, donde el alumno repite
-          lo que dicta verticalmente el profesor.
-
-          En contraste a esa forma de “educación bancaria” como le llamaría Freire, Lab Education,
-          con base en Ciencias del Comportamiento y Aprendizaje Experiencial, ofrece capacitaciones
-          en torno a dos grandes ejes temáticos: Habilidades útiles para la vida cotidiana o laboral.
-          Concientización sobre temas de interés público </p>
-        <hr class="bottom-line">
+    </section>
+    <!--/ Cta-->
+    <section>
+      <div class="container" style="padding: 5rem;">
+        <div class="row">
+          <div style="width: 1000px; text-align: center;">
+            <h2>Habilidades útiles para la vida cotidiana o laboral</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="vc_row element-row row vc_custom_1478727859541">
-    <div class="wpb_column vc_column_container vc_col-sm-12">
-      <div class="wpb_wrapper">
-        <div class="fw-section hb-fw-599b22a654ae9 without-border no-overlay light-style" style="background-color:#5fcf80;
-           background-image:url(https://www.litmos.com/wp-content/uploads/2017/04/learning-automation-lms-training.jpg);
-           background-size:cover;
-           padding-top:40px;
-           padding-bottom:100px;">
-          <div class="row fw-content-wrap">
-            <div class="col-12 nbm">
-              <div class="header-section text-center">
-                <h2>Capacitaciones y Talleres Efectivos</h2>
-                <hr class="bottom-line">
-                <span style="color: white;">
-                  <div style="max-width: 1000px;" align="center">
-                    <p align="center">Education Lab ofrece capacitaciones y talleres efectivos para un aprendizaje
-                      “vivencial”,
-                      basado en experiencias y ya no en el método tradicional, memorístico, donde el alumno repite
-                      lo que dicta verticalmente el profesor.
-
-                      En contraste a esa forma de “educación bancaria” como le llamaría Freire, Lab Education,
-                      con base en Ciencias del Comportamiento y Aprendizaje Experiencial, ofrece capacitaciones
-                      en torno a dos grandes ejes temáticos: Habilidades útiles para la vida cotidiana o laboral.
-                      Concientización sobre temas de interés público.
-                  </div>
-                  </p>
-                </span>
+    </section>  
+    <section style="background-color:darkorange;">
+      <div class="container mt-7 mb-7">
+        <div clas="row justify-contenter-center" style="margin-left: 10em;">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="cover cover-small" style="background-image:url(img/capacitaciones.jpg);"></div>
+            <div class="card">
+              <h class="card-title"><b>Aprende a Aprender en la WEB.<b></h><br><br>
+              <p class="card-text" style="font-size: 80%;">Brinda estrategias de búsqueda de información en internet 
+                y manejo de herramientas informáticas para aumentar la independencia educativa.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="cover cover-small" style="background-image:url(img/capacitaciones.jpg);"></div>
+            <div class="card">
+              <h class="card-title"><b>¿Cómo ser un Docente del Siglo XXI?<b></h><br><br>
+              <p class="card-text" style="font-size: 80%;">Enseñará a los profesores como actualizarse de forma autónoma 
+                en un torno donde las nuevas formas de enseñanza y aprendizaje se revolucionan constantemente.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="cover cover-small" style="background-image:url(img/capacitaciones.jpg);"></div>
+            <div class="card">
+              <h class="card-title"><b>Herramientas digitales para el Mundo Laboral Contemporáneo.<b></h><br><br>
+              <p class="card-text" style="font-size: 80%;">Habilidades computacionales que debe poseer cualquier profesionista, 
+                como el manejo de Office y el uso de aplicaciones y plataformas para optimizar el trabajo corporativo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container" style="padding: 50px;">
+        <div class="row">
+          <div style="width: 1000px; text-align: center;">
+            <h2>Concientización sobre temas de interés público.</h2>
+            <hr class="bottom-line">
+          </div>
+        </div>
+      </div>
+    </section>  
+    <section style="background-color:deepskyblue;">
+      <div class="container mt-5 mb-5">
+        <img
+          src="https://cdn.glitch.com/f48fd9d4-e06d-403e-9def-833f1e5dcdc4%2Frsz_logan-isbell-trjyqikx0ia-unsplash.jpg?v=1585476368676"
+          alt="Esta es una mujer comiendo una paleta"
+          height="250 px"
+          class="float-right ml-10"
+          style="margin-top: 50px;"
+        />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam arcu
+          nisl, posuere eu libero vestibulum, blandit luctus augue. Morbi eu
+          neque vitae quam dapibus lacinia eu et est. Donec convallis sapien id
+          felis tempus, a accumsan leo vulputate. Aliquam dui est, placerat non
+          efficitur nec, auctor ac sem. Vivamus vitae lacinia ante, efficitur
+          finibus risus. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Nulla hendrerit semper suscipit. Morbi
+          semper pretium fringilla. Donec libero mi, mattis at sem a, volutpat
+          ultrices urna. Sed pulvinar egestas lorem at feugiat. Quisque felis
+          ipsum, placerat non venenatis at, suscipit non risus. Vestibulum
+          ligula dui, semper auctor eros sit amet, malesuada luctus arcu.
+          Aliquam placerat, magna varius dignissim cursus, erat sapien
+          sollicitudin justo, in porta risus diam pharetra mauris.
+        </p>
+      </div>
+    </section>
+    <!--Contact-->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="header-section text-center">
+            <h2>Contáctanos</h2>
+            <p>Aquí deja un correo que nosotros revisaremos para hacer llegar el mejor servicio...</p>
+            <hr class="bottom-line">
+          </div>
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="col-md-6 col-sm-6 col-xs-12 left">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                  data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
               </div>
             </div>
-          </div>
-          <div class="video-overlay no-overlay"></div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12 right">
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                  data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+            </div>
+
+            <div class="col-xs-12">
+              <!-- Button -->
+              <button type="submit" id="submit" name="submit"
+                class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+            </div>
+          </form>
+
         </div>
       </div>
-    </div>
-  </div>
-</section>
-  <!--/ Cta-->
-  <!--Contact-->
-  <section id="contact" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="header-section text-center">
-          <h2>Contáctanos</h2>
-          <p>Aquí deja un correo que nosotros revisaremos para hacer llegar el mejor servicio...</p>
-          <hr class="bottom-line">
-        </div>
-        <div id="sendmessage">Your message has been sent. Thank you!</div>
-        <div id="errormessage"></div>
-        <form action="" method="post" role="form" class="contactForm">
-          <div class="col-md-6 col-sm-6 col-xs-12 left">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name"
-                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                data-rule="email" data-msg="Please enter a valid email" />
-              <div class="validation"></div>
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validation"></div>
+    </section>
+    <!--/ Contact-->
+    <!--Footer-->
+    <footer id="footer" class="footer">
+      <div class="container text-center">
+
+        <h3>¡Ingresa los campos para conseguir tu Prueba Gratuita!</h3>
+
+        <form class="mc-trial row">
+          <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+            <div class=" controls">
+              <input name="name" placeholder="Ingresa tu nombre " class="form-control" type="text">
             </div>
           </div>
-
-          <div class="col-md-6 col-sm-6 col-xs-12 right">
-            <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required"
-                data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validation"></div>
+          <!-- End email input -->
+          <div class="form-group col-md-3 col-sm-4">
+            <div class=" controls">
+              <input name="EMAIL" placeholder="Ingresa tu email" class="form-control" type="email">
             </div>
           </div>
-
-          <div class="col-xs-12">
-            <!-- Button -->
-            <button type="submit" id="submit" name="submit"
-              class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+          <!-- End email input -->
+          <div class="col-md-2 col-sm-4">
+            <p>
+              <button name="confirmar" type="submit" class="btn btn-block btn-submit">
+                Submit <i class="fa fa-arrow-right"></i></button>
+            </p>
           </div>
         </form>
-
-      </div>
-    </div>
-  </section>
-  <!--/ Contact-->
-  <!--Footer-->
-  <footer id="footer" class="footer">
-    <div class="container text-center">
-
-      <h3>¡Ingresa los campos para conseguir tu Prueba Gratuita!</h3>
-
-      <form class="mc-trial row">
-        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
-          <div class=" controls">
-            <input name="name" placeholder="Ingresa tu nombre " class="form-control" type="text">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="form-group col-md-3 col-sm-4">
-          <div class=" controls">
-            <input name="EMAIL" placeholder="Ingresa tu email" class="form-control" type="email">
-          </div>
-        </div>
-        <!-- End email input -->
-        <div class="col-md-2 col-sm-4">
-          <p>
-            <button name="confirmar" type="submit" class="btn btn-block btn-submit">
-              Submit <i class="fa fa-arrow-right"></i></button>
-          </p>
-        </div>
-      </form>
-      <!-- End newsletter-form -->
-      <ul class="social-links">
-        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
-        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
-      </ul>
-      ©2016 Mentor Theme. All rights reserved
-      <div class="credits">
-        <!--
+        <!-- End newsletter-form -->
+        <ul class="social-links">
+          <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+          <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+          <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+          <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
+          <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        </ul>
+        ©2016 Mentor Theme. All rights reserved
+        <div class="credits">
+          <!--
           All the links in the footer should remain intact.
           You can delete the links only if you purchased the pro version.
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+        </div>
       </div>
-    </div>
-  </footer>
-  <!--/ Footer-->
+    </footer>
+    <!--/ Footer-->
 
-  <!--script src="http://code.jquery.com/jquery-1.12.4.min.js"></script-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="contactform/contactform.js"></script>
+    <!--script src="http://code.jquery.com/jquery-1.12.4.min.js"></script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="contactform/contactform.js"></script>
 
-  <script src="js/slider.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
